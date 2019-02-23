@@ -7,6 +7,6 @@ function distanceFromHqInFeet(distance) {
   return distanceFromHqInBlocks(distance) * 264;
 }
 
-function distanceTravelledInFeet(distance) {
-
+function distanceTravelledInFeet(destination1, destination2) {
+  return Math.abs((destination1 - destination2) * 264)
 }
